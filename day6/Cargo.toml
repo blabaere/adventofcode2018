@@ -1,0 +1,8 @@
+[package]
+name = "day6"
+version = "0.1.0"
+authors = ["Benoît Labaere <benoit.labaere+github@lspdtc.fr>"]
+edition = "2018"
+
+[dependencies]
+nom = "^4.1"
