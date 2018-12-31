@@ -50,7 +50,7 @@ impl Steps {
     fn get_doable(&self) -> Vec<char> {
         self.todo
             .iter()
-            .filter(|step| self.is_doable(**step))
+            .filter(|&step| self.is_doable(*step))
             .cloned()
             .collect()
     }
